@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to The World</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-image: url('https://wallpapers.com/images/featured/beautiful-blue-background-iz2zgnaheo3etro2.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    nav {
+      margin: 20px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #007bff;
+    }
+
+    /* Main Content Styles */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center left;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    h2 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      max-width: 800px;
+    }
+
+    .button {
+      background-color: #007bff;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: background-color 0.3s, transform 0.3s;
+      box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+      transform: translateY(-2px);
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    footer p {
+      margin: 0;
+      color: #fff;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      h1, h2 {
+        font-size: 2.5em;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
+
+      .button {
+        padding: 10px 20px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>The World</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/users">Users</a>
+      <a href="/teachers">Teachers</a> <!-- Added link for Teachers -->
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <h2>Welcome to The World!</h2>
+    <p>Your platform for managing users effectively. We are dedicated to providing a space that simplifies user management and enhances user experience. Join us as we explore new horizons and build a vibrant community together.</p>
+    <a href="/users" class="button">View Users</a>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 The World. All rights reserved.</p>
+  </footer>
+</body>
+</html>
